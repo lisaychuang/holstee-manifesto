@@ -1,0 +1,171 @@
+/* CSS stylesheet */
+
+html {
+  font-family: 'Pridi';
+  text-transform: uppercase;
+}
+
+body {
+  border: 2px solid lightgray;
+  width: 520px;
+  padding: 20px;
+  margin: 30px;
+}
+
+#block-1  {
+    font-size: 24px;
+    float: left;
+    line-height: 25px;
+    padding: 5px;
+    width: 255px;  
+ 
+}
+
+/** use #block-2 p to select <p> element inside id="block-2" **/
+#block-2 p{
+    float: left;
+    font-size: 120px;
+    line-height: 0px;
+    text-align: right;
+    margin:67px 0px 0px 0px;
+    /** added margin-top 67px to align text **/
+}
+
+#block-3  {
+   line-height: 23px;
+   clear:both;
+   /** added clear to get #block-3 to stay clear of floated elements **/
+}
+
+#block-4 {
+  line-height: 25px;
+  float: left;
+  padding: 2px;
+  margin-right: -8px;
+  /** added margin-right to align text **/
+}
+
+#block-5 {
+    float:left;
+    line-height: 18px;
+    /** reduce height from 20px to 18px **/
+    padding: 1px 0px 0px 0px;
+    word-spacing: -3px;
+  /** added padding & word-spacing to fit **/
+}
+
+#block-6 {
+  clear: both;
+  line-height: 22px;
+}
+
+#block-7 {
+  float: left;
+  margin: -28px 16px 0px 0px;
+  /** removed padding, added margin to align #block-7 **/
+}
+
+#block-8 {
+  line-height: 20px;
+}
+
+#block-9 {
+  clear: both;
+  line-height: 24px;
+}
+
+#block-10 {
+  font-size: 83px;
+  float: left;
+  line-height: 60px;
+  padding: 3px;
+  margin: -80px -4px 0px -6px;
+  /** added margin**/
+}
+
+#block-11 {
+  line-height: 39px;
+  /** changed line-height from 28px to 39px to align text **/
+}
+
+.super-large-text {
+  font-size: 96px;
+}
+
+.extra-extra-large-text {
+  font-size: 47px;
+}
+
+.extra-large-text {
+  font-size: 40px;
+}
+
+.larger-text {
+  font-size: 35px;
+}
+
+.large-text {
+  font-size: 30px;
+}
+
+.mid-larger-text {
+  font-size: 26px;
+}
+
+.mid-large-text {
+  font-size: 22px;
+}
+
+.medium-text {
+  font-size: 20px;
+}
+
+.small-text {
+  font-size: 18px;
+}
+
+.large-word-space {
+  word-spacing: 7px;
+}
+
+.mid-word-space {
+    word-spacing: 4px;
+    /** reduce from 5px to 4px to fit text on 1 line **/
+}
+
+.small-word-space {
+  word-spacing: 2px;
+}
+
+.smaller-word-space {
+  word-spacing: -1.9px;
+}
+
+.smallest-word-space {
+  word-spacing: -5px;
+}
+
+.tiniest-word-space {
+  word-spacing: -7.5px;
+}
+
+.mid-letter-space {
+  letter-spacing: 1.2px;
+}
+
+.small-mid-letter-space {
+  letter-spacing: .9px;
+}
+
+.small-letter-space {
+  letter-spacing: -.15px;
+}
+
+.smallest-letter-space {
+  letter-spacing: -1px;
+}
+
+/** added CSS styling, targeting the last line in #block-11 **/
+#block-11 .extra-large-text { 
+   word-spacing: -7px; 
+}
